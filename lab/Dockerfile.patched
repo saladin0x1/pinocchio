@@ -1,0 +1,4 @@
+ARG TRACER_IMAGE=ghcr.io/llaubin/tracer/tracerpin@sha256:cac02a14f9b801e25bf8d7fd992b46371e22d8406d0871de4a9bf0537890c367
+FROM ${TRACER_IMAGE}
+COPY lab/patch.sh /root/patch.sh
+RUN sh /root/patch.sh

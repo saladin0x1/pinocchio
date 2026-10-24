@@ -1,0 +1,7 @@
+pinocchio
+*.log
+*.txt
+recon_linux
+*.o
+lab/naive
+lab/smc_canary
